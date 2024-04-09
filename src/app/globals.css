@@ -31,3 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+
+/* ----------- for developer--------- */
+
+.width_with_calc {
+  width: calc(100% / 2) !important;
+}
+
+@media screen and (max-width: 788px) {
+  .width_with_calc {
+    width: 86% !important;
+  }
+}
